@@ -6,9 +6,9 @@ export default function DreamislandPage() {
         <div className='DreamislandPage'>
             <div className='grid2'>
                 <div className='nav' style={{textAlign: 'center'}}>
-                    <h1 style={{fontSize: 40, color: '#e98074', marginTop: 10, marginBottom: 15}}>Dream Island</h1>
-                    <a style={{marginRight: 20, fontSize: 25}} href='https://puzzle-project-four.herokuapp.com/'><img style={{height: 30, width: 'auto'}} src='/images/link-solid.svg' alt='link' />Demo</a>
-                    <a style={{marginLeft: 20, fontSize: 25}} href='https://github.com/markshyzer/puzzle-project'><img style={{height: 30, width: 'auto'}} src='/images/github-square-brands.svg' alt='github' />Code</a>
+                    <h1 className='title'>Dream Island</h1>
+                    <a className='link' href='https://puzzle-project-four.herokuapp.com/'><img style={{height: 30, width: 'auto'}} src='/images/link-solid.svg' alt='link' />Demo</a>
+                    <a className='link1' href='https://github.com/markshyzer/puzzle-project'><img style={{height: 30, width: 'auto'}} src='/images/github-square-brands.svg' alt='github' />Code</a>
                 </div>
                 <div className='main'>
                     <img className='main-pic2' src='/images/DreamIsland.png' alt='dreamisland'/>

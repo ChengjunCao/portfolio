@@ -12,6 +12,20 @@
     grid-template-rows: 1fr 3fr;
     grid-column-gap: 50px;
 }
+.title {
+    font-size: 40px;
+    color: #e98074;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.link {
+    margin-right: 20px;
+    font-size: 25px;
+}
+.link1 {
+    margin-left: 20px;
+    font-size: 25px;
+}
 .main-pic1 {
     height: 360px;
     width: auto;
@@ -51,6 +65,20 @@ a:link, a:visited, a:hover {
     .nav {
         grid-area: nav;
 
+    }
+    .title {
+        font-size: 28px;
+        color: #e98074;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .link {
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .link1 {
+        margin-left: 10px;
+        font-size: 15px;
     }
     .main1 {
         grid-area: main;
