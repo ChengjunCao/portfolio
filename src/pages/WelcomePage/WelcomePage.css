@@ -1,0 +1,13 @@
+.hero {
+    margin-top: 120px;
+    visibility: hidden;
+    text-align: center;
+}
+
+.logo1 {
+    margin-top: 0;
+}
+
+.content-line {
+    overflow: hidden
+}

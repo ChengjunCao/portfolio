@@ -1,0 +1,37 @@
+.ProjectsPage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.images {
+    height: 250px;
+    width: auto;
+}
+
+@media (max-width: 1200px) {
+    .images {
+        height: 160px;
+        width: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .projects-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .images {
+        height: 80px;
+        width: auto;
+    }
+}

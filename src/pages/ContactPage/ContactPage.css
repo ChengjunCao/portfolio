@@ -1,0 +1,31 @@
+.ContactPage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.flexbox-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.images-contact {
+    height: 120px;
+    width: auto;
+}
+
+@media (max-width: 600px) {
+    .flexbox-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .images-contact {
+        height: 80px;
+        width: auto;
+    }
+}
