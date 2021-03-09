@@ -17,31 +17,31 @@ export default function DreamislandPage() {
                     <div className='flexbox3'>
                         <div>
                             <img style={{height: 40, width: 50}} src='/images/js-brands.svg' alt='js' />
-                            <p style={{fontSize: 12}}>JavaScript</p>
+                            <p className='skill-p'className='skill-p'>JavaScript</p>
                         </div>
 
                         <div>
-                        <img style={{height: 40, width: 'auto'}} src='/images/mongodb-logo.svg' alt='mongo' />
-                            <p style={{fontSize: 12}}>Mongo</p>
+                            <img style={{height: 40, width: 'auto'}} src='/images/mongodb-logo.svg' alt='mongo' />
+                            <p className='skill-p'>Mongo</p>
                         </div>
                         <div>
-                        <img style={{height: 40, width: 50}} src='/images/express-js.svg' alt='express' />
-                            <p style={{fontSize: 12}}>Express</p>
+                            <img style={{height: 40, width: 50}} src='/images/express-js.svg' alt='express' />
+                            <p className='skill-p'>Express</p>
                         </div>
                         <div>
-                        <img style={{height: 40, width: 50}} src='/images/node-brands.svg' alt='node' />
-                            <p style={{fontSize: 12}}>Node</p>
+                            <img style={{height: 40, width: 50}} src='/images/node-brands.svg' alt='node' />
+                            <p className='skill-p'>Node</p>
                         </div>
                         <div>
-                        <img style={{height: 40, width: 50}} src='/images/html5-brands.svg' alt='html5' />
-                            <p style={{fontSize: 12}}>HTML5</p>
+                            <img style={{height: 40, width: 50}} src='/images/html5-brands.svg' alt='html5' />
+                            <p className='skill-p'>HTML5</p>
                         </div>
                         <div>
-                        <img style={{height: 40, width: 50}} src='/images/css3-alt-brands.svg' alt='css3' />
-                            <p style={{fontSize: 12}}>CSS3</p>
+                            <img style={{height: 40, width: 50}} src='/images/css3-alt-brands.svg' alt='css3' />
+                            <p className='skill-p'>CSS3</p>
                         </div>
                     </div>
-                    <p style={{fontSize: 20}}>
+                    <p className='desc'>
                         Dream Island is your Animal Crossing island on a website. Here you are able to add information about your own island, villagers and share cute pictures of your island.
                     </p>
                 </div>

@@ -19,6 +19,9 @@
 .skill-p {
     font-size: 12px;
 }
+.desc {
+    font-size: 20px;
+}
 .nav {
     grid-column: 1 / 3;
 }
@@ -38,14 +41,14 @@ a:link, a:visited, a:hover {
 @media (max-width: 600px) {
     .grid3 {
         display: grid;
-        grid-template-rows: 80px 220px 1fr;
+        grid-template-rows: 80px 160px 1fr;
         grid-template-areas: "nav"
                             "main"
                             "aside";
         grid-column-gap: 0;                           
     }
     .main-pic4 {
-        height: 200px;
+        height: 155px;
         width: auto;
     }
     .nav {
@@ -66,5 +69,11 @@ a:link, a:visited, a:hover {
         justify-content: space-around;
         align-items: center;
         text-align: center;
+    }
+    .skill-p {
+        font-size: 10px;
+    }
+    .desc {
+        font-size: 14px;
     }
 }

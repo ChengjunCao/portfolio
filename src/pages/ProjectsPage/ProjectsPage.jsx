@@ -35,25 +35,25 @@ export default function ProjectsPage() {
                 <Link to='/puzzles'>
                     <div className='1' ref={el => p1 =el}>
                         <img className='images' src='/images/puzzle.png' alt='puzzles' />
-                        <p style={{fontSize: 24, color: '#e98074'}}>Real-time Puzzles</p>
+                        <p className='project-name'>Real-time Puzzles</p>
                     </div>
                 </Link>
                 <Link to='/drinksup'>
                     <div className='2' ref={el => p2 =el}>
                         <img className='images' src='/images/beer.svg' alt='drinksup' />
-                        <p style={{fontSize: 24, color: '#e98074'}}>Drinks Up!</p>
+                        <p className='project-name'>Drinks Up!</p>
                     </div>
                 </Link>
                 <Link to='/dreamisland'>
                     <div className='3' ref={el => p3 =el}>
                         <img className='images' src='/images/AnimalCrossing.png' alt='dreamisland' />
-                        <p style={{fontSize: 24, color: '#e98074'}}>Dream Island</p>
+                        <p className='project-name'>Dream Island</p>
                     </div>
                 </Link>
                 <Link to='/blackjack'>
                     <div className='4' ref={el => p4 =el}>
                         <img className='images' src='/images/poker.webp' alt='blackjack' />
-                        <p style={{fontSize: 24, color: '#e98074'}}>BlackJack</p>
+                        <p className='project-name'>BlackJack</p>
                     </div>
                 </Link>
             </div>

@@ -26,14 +26,14 @@ export default function WelcomePage() {
         <div className='hero' ref={app}>
             <div ref={el => content = el}>
                 <div className="content-line">
-                    <h1 style={{fontSize: 55, color: '#e85a4f'}}>Hi, I'm Mike</h1>
+                    <h1 className='welcome-h1'>Hi, I'm Mike</h1>
                 </div>
                 <div className="content-line">
-                    <h3 style={{fontSize: 30, color: '#e98074', marginTop: 0, marginBottom: 0}}>A Full-Stack Developer</h3>
+                    <h3 className='welcome-h3'>A Full-Stack Developer</h3>
                 </div>
             </div> 
             <div className='logo1' ref={el => image = el}>
-                <img style={{marginTop: 50, width: 220}} src='/images/coding.svg' alt='logo'/>
+                <img className='welcome-img' src='/images/coding.svg' alt='logo'/>
             </div>
         </div>
     )

@@ -17,27 +17,27 @@ export default function DrinksupPage() {
                     <div className='flexbox2'>
                         <div>
                             <img style={{height: 40, width: 'auto'}} src='/images/python-brands.svg' alt='python' />
-                            <p style={{fontSize: 12}}>Python</p>
+                            <p className='skill-p'>Python</p>
                         </div>
                         <div>
                             <img style={{height: 40, width: 70}} src='/images/django.svg' alt='django' />
-                            <p style={{fontSize: 12}}>Django</p>
+                            <p className='skill-p'>Django</p>
                         </div>
                         
                         <div>
                             <img style={{height: 40, width: 'auto'}} src='/images/postgresql-logo.png' alt='postgresql' />
-                            <p style={{fontSize: 12}}>PostgreSQL</p>
+                            <p className='skill-p'>PostgreSQL</p>
                         </div>
                         <div>
                             <img style={{height: 40, width: 'auto'}} src='/images/html5-brands.svg' alt='html5' />
-                            <p style={{fontSize: 12}}>HTML5</p>
+                            <p className='skill-p'>HTML5</p>
                         </div>
                         <div>
                             <img style={{height: 40, width: 'auto'}} src='/images/css3-alt-brands.svg' alt='css3' />
-                            <p style={{fontSize: 12}}>CSS3</p>
+                            <p className='skill-p'>CSS3</p>
                         </div>
                     </div>
-                    <p style={{fontSize: 20}}>
+                    <p className='desc'>
                         Drinks Up! is a Mobile First drink tracker web app. Here you can store informations for the drink you just had, add picture, rating, bar locations.
                     </p>
                 </div>

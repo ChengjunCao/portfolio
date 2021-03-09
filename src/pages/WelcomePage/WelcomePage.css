@@ -7,7 +7,37 @@
 .logo1 {
     margin-top: 0;
 }
-
+.welcome-h1 {
+    font-size: 55px;
+    color: #e85a4f;
+}
+.welcome-h3 {
+    font-size: 30px;
+    color: #e98074;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.welcome-img {
+    margin-top: 50px;
+    width: 220px;
+}
 .content-line {
     overflow: hidden
+}
+
+@media (max-width: 600px) {
+    .welcome-h1 {
+        font-size: 30px;
+        color: #e85a4f;
+    }
+    .welcome-h3 {
+        font-size: 20px;
+        color: #e98074;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .welcome-img {
+        margin-top: 50px;
+        width: 180px;
+    }
 }
