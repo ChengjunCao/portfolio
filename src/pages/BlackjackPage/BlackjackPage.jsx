@@ -17,7 +17,7 @@ export default function BlackjackPage() {
                     <div className='flexbox4'>
                         <div>
                             <img style={{height: 40, width: 'auto'}} src='/images/js-brands.svg' alt='js' />
-                            <p className='skill-p'className='skill-p'>JavaScript</p>
+                            <p className='skill-p'>JavaScript</p>
                         </div>
                         <div>
                         <img style={{height: 40, width: 'auto'}} src='/images/html5-brands.svg' alt='html5' />

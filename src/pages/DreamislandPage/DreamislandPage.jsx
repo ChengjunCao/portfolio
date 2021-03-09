@@ -17,7 +17,7 @@ export default function DreamislandPage() {
                     <div className='flexbox3'>
                         <div>
                             <img style={{height: 40, width: 50}} src='/images/js-brands.svg' alt='js' />
-                            <p className='skill-p'className='skill-p'>JavaScript</p>
+                            <p className='skill-p'>JavaScript</p>
                         </div>
 
                         <div>
