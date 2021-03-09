@@ -12,7 +12,7 @@ export default function WelcomePage() {
       const h3 = content.children[1]
 
       TweenMax.to(app.current, 0, {css: {visibility: 'visible'}})
-      tl.from(image, 1.1, {y: 300, ease: Power3.easeOut},'Start')
+      tl.from(image, 1.1, {y: 110, ease: Power3.easeOut},'Start')
         .from(logoImage, 1.1, {scale: 1.2, ease: Power3.easeOut})
 
       tl.staggerFrom([h1.children, h3.children], 1, {
