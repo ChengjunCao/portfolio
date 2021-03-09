@@ -28,7 +28,7 @@ export default function ContactPage() {
                             
                         </div>
                         <div>
-                            <a href='https://drive.google.com/file/d/19nL6lSmKA1y9ujlWeAJKpflMK9CYeXyq/view?usp=sharing' target='_blank'>
+                            <a href='https://drive.google.com/file/d/19nL6lSmKA1y9ujlWeAJKpflMK9CYeXyq/view?usp=sharing' target='_blank' rel="noreferrer">
                                 <img className="images-contact" src='/images/file-pdf-solid.svg' alt='pdf' />
                                 <p style={{fontSize: 20}}>Resume</p>
                             </a>
