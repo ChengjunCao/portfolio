@@ -7,8 +7,8 @@ export default function DrinksupPage() {
             <div className='grid1'>
                 <div className='nav' style={{textAlign: 'center'}}>
                     <h1 className='title'>Drinks Up!</h1>
-                    <a className='link' href='https://drinks-up.herokuapp.com/'><img style={{height: 30, width: 'auto'}} src='/images/link-solid.svg' alt='link' />Demo</a>
-                    <a className='link1' href='https://github.com/ChengjunCao/Drinks-Up'><img style={{height: 30, width: 'auto'}} src='/images/github-square-brands.svg' alt='github' />Code</a>
+                    <a className='link' href='https://drinks-up.herokuapp.com/' target='_blank' rel="noreferrer"><img style={{height: 30, width: 'auto'}} src='/images/link-solid.svg' alt='link' />Demo</a>
+                    <a className='link1' href='https://github.com/ChengjunCao/Drinks-Up' target='_blank' rel="noreferrer"><img style={{height: 30, width: 'auto'}} src='/images/github-square-brands.svg' alt='github' />Code</a>
                 </div>
                 <div className="main">
                     <img className='main-pic3' src='/images/DrinksUp.png' alt='drinksup'/>

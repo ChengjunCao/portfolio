@@ -7,8 +7,8 @@ export default function BlackjackPage() {
             <div className='grid3'>
                 <div  className='nav' style={{textAlign: 'center'}}>
                     <h1 className='title'>BlackJack</h1>
-                    <a className='link' href='https://chengjuncao.github.io/BlackJack/'><img style={{height: 30, width: 'auto'}} src='/images/link-solid.svg' alt='link' />Demo</a>
-                    <a className='link1' href='https://github.com/ChengjunCao/BlackJack'><img style={{height: 30, width: 'auto'}} src='/images/github-square-brands.svg' alt='github' />Code</a>
+                    <a className='link' href='https://chengjuncao.github.io/BlackJack/' target='_blank' rel="noreferrer"><img style={{height: 30, width: 'auto'}} src='/images/link-solid.svg' alt='link' />Demo</a>
+                    <a className='link1' href='https://github.com/ChengjunCao/BlackJack' target='_blank' rel="noreferrer"><img style={{height: 30, width: 'auto'}} src='/images/github-square-brands.svg' alt='github' />Code</a>
                 </div>
                 <div className='main'>
                     <img className='main-pic4' src='/images/BlackJack.png' alt='blackjack'/>

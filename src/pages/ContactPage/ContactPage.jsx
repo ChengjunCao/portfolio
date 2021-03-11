@@ -7,14 +7,14 @@ export default function ContactPage() {
             <h1>Let's work together ...</h1>
             <div className="flexbox-contact">
                         <div>
-                            <a href='https://www.linkedin.com/in/chengjuncao/'>
+                            <a href='https://www.linkedin.com/in/chengjuncao/' target='_blank' rel="noreferrer">
                                 <img className="images-contact" src='/images/linkedin-brands.svg' alt='linkedin' />
                                 <p style={{fontSize: 20}}>LinkedIn</p>
                             </a>
 
                         </div>
                         <div>
-                            <a href='https://github.com/ChengjunCao'>
+                            <a href='https://github.com/ChengjunCao' target='_blank' rel="noreferrer">
                                 <img className="images-contact" src='/images/github-square-brands.svg' alt='github' />
                                 <p style={{fontSize: 20}}>Github</p>
                             </a>

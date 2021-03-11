@@ -7,8 +7,8 @@ export default function DreamislandPage() {
             <div className='grid2'>
                 <div className='nav' style={{textAlign: 'center'}}>
                     <h1 className='title'>Dream Island</h1>
-                    <a className='link' href='https://dream-island.herokuapp.com/'><img style={{height: 30, width: 'auto'}} src='/images/link-solid.svg' alt='link' />Demo</a>
-                    <a className='link1' href='https://github.com/ChengjunCao/Dream-Island'><img style={{height: 30, width: 'auto'}} src='/images/github-square-brands.svg' alt='github' />Code</a>
+                    <a className='link' href='https://dream-island.herokuapp.com/' target='_blank' rel="noreferrer"><img style={{height: 30, width: 'auto'}} src='/images/link-solid.svg' alt='link' />Demo</a>
+                    <a className='link1' href='https://github.com/ChengjunCao/Dream-Island' target='_blank' rel="noreferrer"><img style={{height: 30, width: 'auto'}} src='/images/github-square-brands.svg' alt='github' />Code</a>
                 </div>
                 <div className='main'>
                     <img className='main-pic2' src='/images/DreamIsland.png' alt='dreamisland'/>

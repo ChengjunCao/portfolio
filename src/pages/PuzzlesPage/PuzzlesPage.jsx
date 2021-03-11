@@ -7,8 +7,8 @@ export default function PuzzlesPage() {
             <div className='grid'>
                 <div className='nav' style={{textAlign: 'center'}}>
                     <h1 className='title'>Real-time Puzzles</h1>
-                    <a className='link' href='https://puzzle-project-four.herokuapp.com/'><img style={{height: 30, width: 'auto'}} src='/images/link-solid.svg' alt='link' />Demo</a>
-                    <a className='link1' href='https://github.com/markshyzer/puzzle-project'><img style={{height: 30, width: 'auto'}} src='/images/github-square-brands.svg' alt='github' />Code</a>
+                    <a className='link' href='https://puzzle-project-four.herokuapp.com/' target='_blank' rel="noreferrer"><img style={{height: 30, width: 'auto'}} src='/images/link-solid.svg' alt='link' />Demo</a>
+                    <a className='link1' href='https://github.com/markshyzer/puzzle-project' target='_blank' rel="noreferrer"><img style={{height: 30, width: 'auto'}} src='/images/github-square-brands.svg' alt='github' />Code</a>
                 </div>
                 <div className="main1">
                     <img className='main-pic1' src='/images/RealtimePuzzles.png' alt='puzzles'/>
