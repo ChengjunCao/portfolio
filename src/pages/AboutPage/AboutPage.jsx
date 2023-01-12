@@ -1,10 +1,18 @@
-import React from 'react';
-import './AboutPage.css';
+import React from "react";
+import "./AboutPage.css";
 export default function AboutPage() {
-    return (
-        <div className='AboutPage'>
-            <h1>Introducing Mike ...</h1>
-            <p>a bartender turned software engineer motivated to bring ideas to life. I love constantly learning new things and learning to code was the most challenging but satisfying experience, which led to my firm decision to go on this path. My previous bar experience taught me the time-management and multi-tasking skills, and my General Assembly Software Engineer Immersive bootcamp experience provided me the skills including JavaScript, Python, MERN stack to work professionally as a full-stack software engineer.</p>
-        </div>
-    )
+  return (
+    <div className="AboutPage">
+      <h1>Introducing Mike ...</h1>
+      <p>
+        Frontend Developer with 2 years of proven experience at ActivateStaff
+        (formerly TimeSaved) in helping the company create and maintain features
+        on both web app and mobile app using React and React Native. Experienced
+        in driving projects forward, collaborating with designers and backend
+        developers, facilitating projects from concept to launch. Capable of
+        continuous learning from senior developers. Eager to tackle more complex
+        problems and continue to find best long-term solutions.
+      </p>
+    </div>
+  );
 }

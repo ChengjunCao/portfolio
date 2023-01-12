@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   padding: 0;
   margin: 0;
@@ -71,14 +71,14 @@ header {
 
 //Footer
 footer {
-    height: 80px;
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
-    z-index: 10;
-    text-align: center;
-    background-color: #eeece7;
-    font-size: 24px;
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 10;
+  text-align: center;
+  background-color: #eeece7;
+  font-size: 24px;
 }
 
 span {
@@ -89,7 +89,7 @@ span {
 }
 h1 {
   font-size: 55px;
-  color: #e85a4f
+  color: #e85a4f;
 }
 
 @media (max-width: 1200px) {
@@ -172,6 +172,6 @@ h1 {
   }
   h1 {
     font-size: 20px;
-    color: #e85a4f
+    color: #e85a4f;
   }
 }
