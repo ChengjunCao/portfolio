@@ -1,1 +1,1 @@
-export { Box, Flex, Text, Heading } from "rebass";
+export { Box, Flex, Text, Heading, Link, Image } from "rebass";
