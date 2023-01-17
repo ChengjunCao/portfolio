@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import WelcomePage from "./pages/WelcomePage/WelcomePage";
 import AboutPage from "./pages/AboutPage/AboutPage";
+import WorkPage from "./pages/WorkPage/WorkPage";
 import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import PuzzlesPage from "./pages/PuzzlesPage/PuzzlesPage";
@@ -19,6 +20,7 @@ function App() {
       <Switch>
         <Route exact path="/" render={() => <WelcomePage />} />
         <Route exact path="/about" render={() => <AboutPage />} />
+        <Route exact path="/work" render={() => <WorkPage />} />
         <Route exact path="/projects" render={() => <ProjectsPage />} />
         <Route exact path="/contact" render={() => <ContactPage />} />
         <Route exact path="/puzzles" render={() => <PuzzlesPage />} />
