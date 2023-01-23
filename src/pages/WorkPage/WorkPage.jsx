@@ -1,6 +1,7 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from "react";
 import { Box, Flex } from "../../components/ds";
-import { Heading, Text } from "../../components/ds";
+import { Heading } from "../../components/ds";
 export default function WorkPage() {
   return (
     <Flex
